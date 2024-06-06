@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kamal\\Desktop\\CourseApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6023BE4-61BF-4302-BED3-D0DB34348D7D}|Course.API\\Course.API.csproj|c:\\users\\kamal\\desktop\\courseapp\\course.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6023BE4-61BF-4302-BED3-D0DB34348D7D}|Course.API\\Course.API.csproj|solutionrelative:course.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8FDF1BF-8D3D-4F3C-9B9A-A8B2433EC58D}|Course.Service\\Course.Service.csproj|c:\\users\\kamal\\desktop\\courseapp\\course.service\\services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8FDF1BF-8D3D-4F3C-9B9A-A8B2433EC58D}|Course.Service\\Course.Service.csproj|solutionrelative:course.service\\services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8FDF1BF-8D3D-4F3C-9B9A-A8B2433EC58D}|Course.Service\\Course.Service.csproj|c:\\users\\kamal\\desktop\\courseapp\\course.service\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8FDF1BF-8D3D-4F3C-9B9A-A8B2433EC58D}|Course.Service\\Course.Service.csproj|solutionrelative:course.service\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8FDF1BF-8D3D-4F3C-9B9A-A8B2433EC58D}|Course.Service\\Course.Service.csproj|c:\\users\\kamal\\desktop\\courseapp\\course.service\\dtos\\studentdtos\\studentgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8FDF1BF-8D3D-4F3C-9B9A-A8B2433EC58D}|Course.Service\\Course.Service.csproj|solutionrelative:course.service\\dtos\\studentdtos\\studentgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8FDF1BF-8D3D-4F3C-9B9A-A8B2433EC58D}|Course.Service\\Course.Service.csproj|c:\\users\\kamal\\desktop\\courseapp\\course.service\\dtos\\studentdtos\\studenteditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{B8FDF1BF-8D3D-4F3C-9B9A-A8B2433EC58D}|Course.Service\\Course.Service.csproj|c:\\users\\kamal\\desktop\\courseapp\\course.service\\dtos\\studentdtos\\studentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8FDF1BF-8D3D-4F3C-9B9A-A8B2433EC58D}|Course.Service\\Course.Service.csproj|solutionrelative:course.service\\dtos\\studentdtos\\studentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6023BE4-61BF-4302-BED3-D0DB34348D7D}|Course.API\\Course.API.csproj|c:\\users\\kamal\\desktop\\courseapp\\course.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6023BE4-61BF-4302-BED3-D0DB34348D7D}|Course.API\\Course.API.csproj|solutionrelative:course.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8FDF1BF-8D3D-4F3C-9B9A-A8B2433EC58D}|Course.Service\\Course.Service.csproj|c:\\users\\kamal\\desktop\\courseapp\\course.service\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8FDF1BF-8D3D-4F3C-9B9A-A8B2433EC58D}|Course.Service\\Course.Service.csproj|solutionrelative:course.service\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8FDF1BF-8D3D-4F3C-9B9A-A8B2433EC58D}|Course.Service\\Course.Service.csproj|c:\\users\\kamal\\desktop\\courseapp\\course.service\\services\\implementations\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +38,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "StudentGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Dtos\\StudentDtos\\StudentGetDto.cs",
+              "RelativeDocumentMoniker": "Course.Service\\Dtos\\StudentDtos\\StudentGetDto.cs",
+              "ToolTip": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Dtos\\StudentDtos\\StudentGetDto.cs",
+              "RelativeToolTip": "Course.Service\\Dtos\\StudentDtos\\StudentGetDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:44:33.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.API\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Course.API\\Controllers\\StudentsController.cs",
@@ -46,48 +62,35 @@
               "RelativeToolTip": "Course.API\\Controllers\\StudentsController.cs",
               "ViewState": "AQIAAFoAAAAAAAAAAAAmwGkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T09:22:26.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T09:22:26.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "StudentEditDto.cs",
               "DocumentMoniker": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Dtos\\StudentDtos\\StudentEditDto.cs",
               "RelativeDocumentMoniker": "Course.Service\\Dtos\\StudentDtos\\StudentEditDto.cs",
               "ToolTip": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Dtos\\StudentDtos\\StudentEditDto.cs",
               "RelativeToolTip": "Course.Service\\Dtos\\StudentDtos\\StudentEditDto.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAwwCAAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwBAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T09:21:32.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "StudentCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Dtos\\StudentDtos\\StudentCreateDto.cs",
               "RelativeDocumentMoniker": "Course.Service\\Dtos\\StudentDtos\\StudentCreateDto.cs",
               "ToolTip": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Dtos\\StudentDtos\\StudentCreateDto.cs",
               "RelativeToolTip": "Course.Service\\Dtos\\StudentDtos\\StudentCreateDto.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAADwvyEAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T09:21:22.669Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GroupService.cs",
-              "DocumentMoniker": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Services\\Implementations\\GroupService.cs",
-              "RelativeDocumentMoniker": "Course.Service\\Services\\Implementations\\GroupService.cs",
-              "ToolTip": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Services\\Implementations\\GroupService.cs",
-              "RelativeToolTip": "Course.Service\\Services\\Implementations\\GroupService.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAmwFMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T09:14:03.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Services\\Interfaces\\IStudentService.cs",
               "RelativeDocumentMoniker": "Course.Service\\Services\\Interfaces\\IStudentService.cs",
@@ -99,15 +102,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Services\\Implementations\\StudentService.cs",
               "RelativeDocumentMoniker": "Course.Service\\Services\\Implementations\\StudentService.cs",
               "ToolTip": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Services\\Implementations\\StudentService.cs",
               "RelativeToolTip": "Course.Service\\Services\\Implementations\\StudentService.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAmwHEAAAAAAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAA5wCMAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:16:05.346Z"
+              "WhenOpened": "2024-06-05T21:16:05.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GroupService.cs",
+              "DocumentMoniker": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Services\\Implementations\\GroupService.cs",
+              "RelativeDocumentMoniker": "Course.Service\\Services\\Implementations\\GroupService.cs",
+              "ToolTip": "C:\\Users\\kamal\\Desktop\\CourseApp\\Course.Service\\Services\\Implementations\\GroupService.cs",
+              "RelativeToolTip": "Course.Service\\Services\\Implementations\\GroupService.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAmwFMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T09:14:03.685Z"
             }
           ]
         },

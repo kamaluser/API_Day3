@@ -15,3 +15,4 @@ C:\Users\kamal\Desktop\CourseApp\Course.Service\obj\Debug\net8.0\Course.Service.
 C:\Users\kamal\Desktop\CourseApp\Course.Service\obj\Debug\net8.0\refint\Course.Service.dll
 C:\Users\kamal\Desktop\CourseApp\Course.Service\obj\Debug\net8.0\Course.Service.pdb
 C:\Users\kamal\Desktop\CourseApp\Course.Service\obj\Debug\net8.0\ref\Course.Service.dll
+C:\Users\kamal\Desktop\CourseApp\Course.Service\obj\Debug\net8.0\Course.Service.sourcelink.json

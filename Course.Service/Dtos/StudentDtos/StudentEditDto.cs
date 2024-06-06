@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace Course.Service.Dtos.StudentDtos
         public string Email { get; set; }
         public DateTime BirthDate { get; set; }
         public int GroupId { get; set; }
+        public IFormFile File { get; set; }
     }
 
     public class StudentEditDtoValidator : AbstractValidator<StudentEditDto>

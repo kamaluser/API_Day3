@@ -3,6 +3,8 @@ using Course.Data;
 using Course.Service.Dtos.StudentDtos;
 using Course.Service.Exceptions;
 using Course.Service.Services.Interfaces;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -16,10 +18,12 @@ namespace Course.Service.Services.Implementations
     public class StudentService : IStudentService
     {
         private readonly AppDbContext _context;
+        private readonly IWebHostEnvironment _environment;
 
-        public StudentService(AppDbContext context)
+        public StudentService(AppDbContext context, IWebHostEnvironment environment)
         {
             _context = context;
+            _environment = environment;
         }
         public int Create(StudentCreateDto dto)
         {
@@ -34,12 +38,19 @@ namespace Course.Service.Services.Implementations
             if (group.Limit <= group.Students.Count)
                 throw new GroupLimitException($"Group is full!");
 
+            string file = null;
+            if (dto.File != null)
+            {
+                file = SaveFile(dto.File);
+            }
+
             Student student = new Student
             {
                 FullName = dto.FullName,
                 Email = dto.Email,
                 BirthDate = dto.BirthDate,
-                GroupId = dto.GroupId
+                GroupId = dto.GroupId,
+                Photo = file
             };
 
             _context.Students.Add(student);
@@ -56,7 +67,8 @@ namespace Course.Service.Services.Implementations
                 Email = x.Email,
                 BirthDate = x.BirthDate,
                 GroupId = x.GroupId,
-                GroupName = x.Group.No
+                GroupName = x.Group.No,
+                PhotoUrl = x.Photo!=null?null:$"/uploads/student/{x.Photo}"
             }).ToList();
             return students;
         }
@@ -74,7 +86,8 @@ namespace Course.Service.Services.Implementations
                 Email = student.Email,
                 BirthDate = student.BirthDate,
                 GroupId = student.GroupId,
-                GroupName = student.Group.No
+                GroupName = student.Group.No,
+                PhotoUrl = student.Photo != null ? null : $"uploads/student/{student.Photo}"
             };
         }
         public void Edit(int id, StudentEditDto dto)
@@ -90,6 +103,12 @@ namespace Course.Service.Services.Implementations
 
             if (group.Limit <= group.Students.Count)
                 throw new GroupLimitException($"Group is full!");
+
+            if (dto.File != null)
+            {
+                string path = SaveFile(dto.File);
+                student.Photo = path;
+            }
 
             student.FullName = dto.FullName;
             student.Email = dto.Email;
@@ -108,6 +127,25 @@ namespace Course.Service.Services.Implementations
             student.IsDeleted = true;
             _context.Students.Remove(student);
             _context.SaveChanges();
+        }
+
+        private string SaveFile(IFormFile file)
+        {
+            string uploadDir = Path.Combine(_environment.WebRootPath, "uploads/student");
+            if (!Directory.Exists(uploadDir))
+            {
+                Directory.CreateDirectory(uploadDir);
+            }
+
+            string fileName = Guid.NewGuid().ToString() + "_" + file.FileName;
+            string filePath = Path.Combine(uploadDir, fileName);
+
+            using (var fileStream = new FileStream(filePath, FileMode.Create))
+            {
+                file.CopyTo(fileStream);
+            }
+
+            return fileName;
         }
     }
 }

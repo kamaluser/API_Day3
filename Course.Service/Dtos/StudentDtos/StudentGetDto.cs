@@ -14,5 +14,6 @@ namespace Course.Service.Dtos.StudentDtos
         public DateTime BirthDate { get; set; }
         public int GroupId { get; set; }
         public string GroupName { get; set; }
+        public string PhotoUrl { get; set; }
     }
 }

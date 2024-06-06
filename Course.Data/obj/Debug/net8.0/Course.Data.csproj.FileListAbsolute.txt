@@ -15,3 +15,4 @@ C:\Users\kamal\Desktop\CourseApp\Course.Data\obj\Debug\net8.0\refint\Course.Data
 C:\Users\kamal\Desktop\CourseApp\Course.Data\obj\Debug\net8.0\Course.Data.pdb
 C:\Users\kamal\Desktop\CourseApp\Course.Data\obj\Debug\net8.0\Course.Data.genruntimeconfig.cache
 C:\Users\kamal\Desktop\CourseApp\Course.Data\obj\Debug\net8.0\ref\Course.Data.dll
+C:\Users\kamal\Desktop\CourseApp\Course.Data\obj\Debug\net8.0\Course.Data.sourcelink.json

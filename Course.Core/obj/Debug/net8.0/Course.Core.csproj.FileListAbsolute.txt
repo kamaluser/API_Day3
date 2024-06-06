@@ -9,3 +9,4 @@ C:\Users\kamal\Desktop\CourseApp\Course.Core\obj\Debug\net8.0\Course.Core.dll
 C:\Users\kamal\Desktop\CourseApp\Course.Core\obj\Debug\net8.0\refint\Course.Core.dll
 C:\Users\kamal\Desktop\CourseApp\Course.Core\obj\Debug\net8.0\Course.Core.pdb
 C:\Users\kamal\Desktop\CourseApp\Course.Core\obj\Debug\net8.0\ref\Course.Core.dll
+C:\Users\kamal\Desktop\CourseApp\Course.Core\obj\Debug\net8.0\Course.Core.sourcelink.json
